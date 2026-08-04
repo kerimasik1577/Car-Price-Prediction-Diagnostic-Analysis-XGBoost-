@@ -1,4 +1,4 @@
-# 🏎️ UK Used Car Price Prediction & Diagnostic Analysis (XGBoost)
+# UK Used Car Price Prediction & Diagnostic Analysis (XGBoost)
 
 An end-to-end Machine Learning project designed to predict second-hand car prices in the UK market using advanced **Feature Engineering**, **Data Hygiene**, **Target Encoding**, and **Gradient Boosting (XGBoost)**.
 
@@ -6,7 +6,7 @@ This project goes beyond standard model training by conducting a thorough **Resi
 
 ---
 
-## 📌 Key Highlights & Methodology
+## Key Highlights & Methodology
 
 * **Data Hygiene & Imputation:** Addressed non-random missing values in vehicle specifications (`Engine_Size`, `Service history`, `Doors`, `Seats`, `Emission Class`).
 * **Domain-Specific Feature Engineering:** 
@@ -17,13 +17,13 @@ This project goes beyond standard model training by conducting a thorough **Resi
 
 ---
 
-## 📊 Model Evaluation & Benchmarks
+## Model Evaluation & Benchmarks
 
 Multiple regression models were evaluated on the test set under identical conditions:
 
 | Model | $R^2$ Score | MAE (£) | Median APE (%) | Status |
 | :--- | :---: | :---: | :---: | :---: |
-| **XGBoost** | **0.88** | **£785.38** | **~9.98%** | 🏆 Winner |
+| **XGBoost** | **0.88** | **£785.38** | **~9.98%** |  Winner |
 | LightGBM | 0.88 | £793.42 | 10.56% | Finalist |
 | CatBoost | 0.87 | £876.73 | 11.83% | Benchmark |
 | Random Forest | 0.86 | £801.29 | 10.57% | Baseline |
@@ -31,7 +31,7 @@ Multiple regression models were evaluated on the test set under identical condit
 
 ---
 
-## 🔍 Diagnostic Analysis & Model Insights
+## Diagnostic Analysis & Model Insights
 
 A detailed post-prediction error analysis revealed critical insights into the model's behavior:
 
@@ -45,7 +45,7 @@ A detailed post-prediction error analysis revealed critical insights into the mo
 
 ---
 
-## 📈 Feature Importance
+## Feature Importance
 
 The top features driving predictions according to the trained XGBoost model:
 
@@ -53,7 +53,7 @@ The top features driving predictions according to the trained XGBoost model:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python 3.10+**
 * **Data Manipulation:** `pandas`, `numpy`
@@ -63,7 +63,7 @@ The top features driving predictions according to the trained XGBoost model:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the repository:**
    ```bash
